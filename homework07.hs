@@ -14,6 +14,7 @@ là thành viên thuộc lớp này:
 -- The types Int and Word bellong to the same type classes. What is the difference
 -- between them? Check maybe the maxBound and minBound parameter for both types.
 {-
+Cùng là số nguyên: Int là kiểu nguyên, Word là kiểu số tự nhiên
 maxBound :: Int
 9223372036854775807
 
