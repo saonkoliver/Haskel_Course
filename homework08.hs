@@ -67,4 +67,4 @@ containsGrape g []  = False
 containsGrape g [x:xs]  = 
     | g == x{grapes = = g} = True
     | otherwise = a containsGrape xs
-
+--
