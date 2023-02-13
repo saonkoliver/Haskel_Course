@@ -62,5 +62,9 @@ lePetitHautLafitte = Label{kinds = ("Le Petit Haut Lafitte", "13.5%")}
 -- This is a test list for the `containsGrape` function with an grape that is not in the list.
 grapeList = [larrosaRose,castiglioni,lePetitHautLafitte]
 newGrape = "Pinot Noir"
---containsGrape :: [Label] -> Grape -> Bool
---Chưa nghĩ ra mà giờ buồn ngủ quá
+containsGrape ::  Grape -> [Label] ->Bool
+containsGrape g []  = False
+containsGrape g [x:xs]  = 
+    | g == x{grapes = = g} = True
+    | otherwise = a containsGrape xs
+
